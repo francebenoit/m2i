@@ -89,7 +89,7 @@ class Formateur extends Personne
 									SET $field=:value
 									WHERE id=:id"	);
 
-					
+					//comment
 					$sth->bindParam(':value', $value);
 					$sth->bindParam(':id', $id);
 					$sth->execute();
