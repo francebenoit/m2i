@@ -7,14 +7,8 @@ class Formateur extends Personne
 	private $entreprise;
 	private $id;
 	private $sessions;
+	//modif
 
-	public function Formateur1($nom,$prenom,$entreprise)
-	{
-		$this.parent::setNom($nom);
-		$this.parent::setPrenom($prenom);
-		$this->entreprise = $entreprise;
-		$this->sessions = null;
-	}
 	public function setEntreprise($entreprise)
 	{
 		$this->entreprise = $entreprise ;
