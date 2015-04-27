@@ -8,7 +8,7 @@ class Session
 	private $dateD;
 	private $description;
 	private $id;
-	private $formateur;
+	private $formateur;//modif
 	
 	public function Session($dateD,$description,Formateur $formateur)
 	{
